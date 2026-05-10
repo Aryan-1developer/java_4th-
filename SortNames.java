@@ -1,0 +1,16 @@
+import java.util.Arrays;
+
+public class SortNames {
+    public static void main(String[] args) {
+
+        String names[] = {"Aryan", "Rohit", "Karan", "Aman", "Zoya"};
+
+        Arrays.sort(names);
+
+        System.out.println("Sorted Names:");
+
+        for (String name : names) {
+            System.out.println(name);
+        }
+    }
+}
